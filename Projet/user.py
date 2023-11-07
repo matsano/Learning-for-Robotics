@@ -1,6 +1,6 @@
 import numpy as np
 
-class newUser:
+class User:
     def __init__(self):
         self.dtype = [('name', 'U50'), ('age', int), ('height', float), ('weight', float), ('BMI', float), ('category', 'U50'), ('goal', 'U50')]
     

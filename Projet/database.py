@@ -1,16 +1,16 @@
 import numpy as np
-from newUser import newUser
+from user import User
 
 class DataBase:
     def __init__(self):
         # Initialize the database as an empty array with a custom dtype
-        self.dtype = [('name', 'U50'), ('age', int), ('height', float), ('weight', float), ('BMI', float), ('category', 'U50')]
+        self.dtype = [('name', 'U50'), ('age', int), ('height', float), ('weight', float), ('BMI', float), ('category', 'U50'), ('goal', 'U50')]
         self.data = np.array([], dtype=self.dtype)
 
 
     def add_new_user(self):
         # Add a new user to the database
-        user = newUser()
+        user = User()
         new_user = user.get_new_user()
         self.data = np.append(self.data, new_user)
         
@@ -18,7 +18,7 @@ class DataBase:
     
     
     def print_informations(self, user):
-        print(f'Name: {user["name"]}, Age: {user["age"]}, Height: {user["height"]}, Weight: {user["weight"]}, BMI: {user["BMI"]:.2f}, Category: {user["category"]}')
+        print(f'Name: {user["name"]}, Age: {user["age"]}, Height: {user["height"]}, Weight: {user["weight"]}, BMI: {user["BMI"]:.2f}, Category: {user["category"]}, Goal: {user["goal"]}')
         
         return 0
 
