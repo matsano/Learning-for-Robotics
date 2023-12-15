@@ -1,5 +1,5 @@
 # Learning-for-Robotics
-Learning for Robotics Course (ROB311)
+Learning for Robotics Course
 
 ## 📋 Description
 TDs code implemented during the course.
