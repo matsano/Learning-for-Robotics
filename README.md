@@ -13,4 +13,4 @@ The codes were implemented in Python.
 - Matheus SANTOS SANO:
     - [![GitHub](https://i.stack.imgur.com/tskMh.png) GitHub](https://github.com/matsano)
 
-I would like to thank my professor Mrs. Adriana Tapus for the knowledge taught in ROB311 Course at [ENSTA Paris](https://www.ensta-paris.fr/).
+I would like to thank my professor Mrs. Adriana Tapus for the knowledge taught in course at [ENSTA Paris](https://www.ensta-paris.fr/).
